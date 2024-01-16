@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #fff;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .nav-item {
+      text-align: center;
+      padding: 15px 0;
+    }
+    .hamburger {
+      display: block;
+    }
+    .hero-heading {
+      font-size: 1.8em;
+    }
+    .hero-subheading {
+      font-size: 1em;
+    }
+    .search-panel {
+      width: 100%;
+      flex-direction: column;
+    }
+    .search-input,
+    .search-select,
+    .search-btn {
+      width: calc(100% - 20px);
+      margin: 5px 10px;
+    }
+  }
+  
