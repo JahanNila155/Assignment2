@@ -16,8 +16,17 @@
     .hamburger {
       display: block;
     }
+    header{
+      width: 335px;
+      height: 483px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px 20px 24px 20px;
+    }
     .hero-heading {
-      font-size: 1.8em;
+      font-size: 22px;
     }
     .hero-paragraph {
       font-size: 1em;
@@ -33,4 +42,11 @@
       margin: 5px 10px;
     }
   }
+  
+@media (max-width: 600px) {
+  .destination-grid {
+      flex-direction: column;
+      align-items: center;
+  }
+}
   
