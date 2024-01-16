@@ -267,10 +267,96 @@ body{
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin-top: 48px;
+}
+.destination-item-one{
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.destination-item-two{
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination-item-three{
+  width: 374px;
+  height: 286px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.destination-item-four{
+  width: 474px;
+  height: 286px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 7.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.destination-item-five{
+  width: 274px;
+  height: 286px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.destination-item-six{
+  width: 473px;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.destination-item-seven{
+  width: 673px;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 10.png');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  
+}
+#destination-item p {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+
+}
+
+/* .destination-item {
+  position: relative;
+  display: grid;
+
+  
+}
+
+.destination-items img {
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+
 }
 
 .destination-item {
   position: relative;
+  display: grid;
 
   
 }
@@ -278,21 +364,21 @@ body{
 .destination-item img {
   width: 474px;
   height: 286px;
+
   border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
 
 }
 
-.destination-item span {
+#destination-item span {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-weight: bold;
-}
+  color: #FFF;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+} */
+
 
 @media (max-width: 800px) {
   .destination-grid {
