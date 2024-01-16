@@ -3,21 +3,12 @@ body{
     height: 6940px;
     background: #FFF;
 } 
-/* header section style start  */
-/* nav{
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: fixed;
-    /* z-index: 1000; */
-    
-  
+/* header section style start  */ 
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    /* position: relative; */
-    /* z-index: 1000; */
     margin:0px 127px 50px 135px;
   }
   .navbar-logo {
@@ -94,8 +85,6 @@ body{
     background-color: #333;
     margin: 5px 0;
   }
-  
-  /* --- Hero Section Styles --- */
   .hero-section {
     width: 1170px;
     height: 500px;
@@ -141,10 +130,6 @@ body{
   .search-input,
   .search-select,
   .search-btn {
-    /* padding: 10px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px; */
     width: 174px;
     height: 52px;
     background: #FFF;
@@ -169,3 +154,4 @@ body{
   .search-btn:hover {
     background-color: #e63600;
   }
+  /* header section style end  */
