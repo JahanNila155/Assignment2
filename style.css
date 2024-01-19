@@ -657,3 +657,135 @@ body{
   background-color: #FFF;
 
 }
+/* deals and discount section style end */
+
+/* perfact place section style start */
+.perfact-place-container{
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin:100px 135px 24px 135px;
+}
+.left-perfact-place-content{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.perfact-place-heading{
+  width: 448px;
+  color: #131318;
+  font-family: 'Mulish', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px; 
+}
+.perfact-place-paragraph{
+  width: 532px;
+  color: #5A5A5D;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;  
+}
+.perfact-place-list li{
+  width: 518px;
+  color: #131318;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.perfact-place-para-two{
+  width: 530px;
+  color: #5A5A5D;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+.see-btn{
+  width: 174px;
+  height: 52px;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+}
+.see-btn:hover{
+  color: #FF5400;
+  background-color: #FFF;
+
+}
+.right-perfact-place-content{
+  width: 610px;
+  height: 424px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group 40089.png');
+  margin-left: 28px;
+}
+.right-perfact-place-content-text{
+  width: 276px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin:126px 180px ;
+}
+.left-perfact-place-items{
+  display: inline-flex;
+  margin-left: 24px;
+  float: left;
+
+}
+.line-bar{
+  width: 24px;
+  height: 24px;
+
+}
+.times{
+  color: #F3F3F3;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 12px;
+
+}
+.right-perfact-place-items{
+  display: inline-flex;
+  float: right;
+  margin-top: 355px;
+}
+.volume{
+  width: 24px;
+  height: 24px;
+}
+.maximize{
+  width: 24px;
+  height: 24px;
+}
+.line-dot{
+  width: 24px;
+  height: 24px;
+}
+hr{
+  width: 562px;
+  height: 4px;
+  border-radius: 8px;
+   background: rgba(255, 255, 255, 0.30);
+   margin-bottom: 0;
+
+}
